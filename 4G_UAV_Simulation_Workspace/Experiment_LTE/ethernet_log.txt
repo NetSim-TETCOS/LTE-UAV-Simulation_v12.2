@@ -1,0 +1,4 @@
+Device 4, Port 1: Setting port state as Forwarding
+
+Device 5, Port 1: Setting port state as Forwarding
+

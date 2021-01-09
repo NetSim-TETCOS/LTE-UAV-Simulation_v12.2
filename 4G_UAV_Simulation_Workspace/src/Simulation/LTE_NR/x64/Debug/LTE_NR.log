@@ -1,0 +1,40 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  LTENR_AMCTable.c
+  LTENR_Association.c
+  LTENR_EPC.c
+  LTENR_GNBRRC.c
+  LTENR_MAC.c
+  LTENR_NAS.c
+  LTENR_PDCP.c
+  LTENR_PHY.c
+  LTENR_PRB.c
+  LTENR_PropagationModel.c
+  LTENR_RLC.c
+  LTENR_RLCBuffer.c
+  LTENR_RLCMSG.c
+  LTENR_RLC_AM.c
+  LTENR_RLC_UM.c
+  LTENR_RRC.c
+H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\src\Simulation\LTE_NR\LTENR_RRC.c(159,44): warning C4013: 'fn_NetSim_UPDATE_SPECTRAL_EFFICIENCY_INFO' undefined; assuming extern returning int
+  LTENR_SDAP.c
+H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\src\Simulation\LTE_NR\LTENR_SDAP.c(181): warning Msg: Implement dissociation for SDAP in function LTENR_SDAP_ASSOCIATION
+  LTENR_Spectrum.c
+  LTE_NR.c
+  Generating Code...
+H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\src\Simulation\LTE_NR\LTENR_RLC_UM.c(391): warning C4715: 'LTENR_RLC_UM_SEND_PDU': not all control paths return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1316,5): warning MSB8012: TargetPath(H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\src\Simulation\LTE_NR\..\..\..\bin\bin_x64\LTE_NR.dll) does not match the Linker's OutputFile property value (H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\libLTE_NR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1318,5): warning MSB8012: TargetName(LTE_NR) does not match the Linker's OutputFile property value (libLTE_NR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  list.lib(List.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library ..\..\..\bin\bin_x64\LTE_NR.lib and object ..\..\..\bin\bin_x64\LTE_NR.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\List.pdb'; linking object as if no debug info
+LTE_NRLib.lib(LTE_NR_HELPER.obj) : warning LNK4099: PDB 'LTE_NRLib.pdb' was not found with 'LTE_NRLib.lib(LTE_NR_HELPER.obj)' or at 'H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\LTE_NRLib.pdb'; linking object as if no debug info
+LTE_NRLib.lib(LTENR_Log.obj) : warning LNK4099: PDB 'LTE_NRLib.pdb' was not found with 'LTE_NRLib.lib(LTENR_Log.obj)' or at 'H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\LTE_NRLib.pdb'; linking object as if no debug info
+LTE_NRLib.lib(LTENR_MSG.obj) : warning LNK4099: PDB 'LTE_NRLib.pdb' was not found with 'LTE_NRLib.lib(LTENR_MSG.obj)' or at 'H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\LTE_NRLib.pdb'; linking object as if no debug info
+LTE_NRLib.lib(LTENR_Buffer.obj) : warning LNK4099: PDB 'LTE_NRLib.pdb' was not found with 'LTE_NRLib.lib(LTENR_Buffer.obj)' or at 'H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\LTE_NRLib.pdb'; linking object as if no debug info
+LTE_NRLib.lib(LTE_NRLib.obj) : warning LNK4099: PDB 'LTE_NRLib.pdb' was not found with 'LTE_NRLib.lib(LTE_NRLib.obj)' or at 'H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\LTE_NRLib.pdb'; linking object as if no debug info
+LTE_NRLib.lib(LTE_NR_Config.obj) : warning LNK4099: PDB 'LTE_NRLib.pdb' was not found with 'LTE_NRLib.lib(LTE_NR_Config.obj)' or at 'H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\bin\bin_x64\LTE_NRLib.pdb'; linking object as if no debug info
+  LTE_NR.vcxproj -> H:\NetSim-Files\NetSim-Workspaces\5G_UAV_Simulation\src\Simulation\LTE_NR\..\..\..\bin\bin_x64\LTE_NR.dll
